@@ -36,7 +36,7 @@ app.use('/api/history', historyRoutes);  // Register the new history route
 
 // MongoDB connection
 const PORT = 5000;
-const MONGO_URI = "mongodb+srv://shankar:Shankar%40mongo@cluster0.wsbqb.mongodb.net/BookSharing";
+const MONGO_URI = "Your Database url";
 
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
